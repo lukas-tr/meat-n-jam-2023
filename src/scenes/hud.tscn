@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://bo8en66ubbkg6"]
+
+[ext_resource type="Script" path="res://scripts/hud.gd" id="1_dddca"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_dddca")
+
+[node name="DistanceLabel" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -36.0
+offset_top = 39.0
+offset_right = 36.0
+offset_bottom = 65.0
+grow_horizontal = 2
+text = "0 m"
+
+[node name="SpeedLabel" type="Label" parent="."]
+offset_left = 862.0
+offset_top = 488.0
+offset_right = 917.0
+offset_bottom = 514.0
+text = "0 km/h"
+
+[node name="JumpsLabel" type="Label" parent="."]
+offset_left = 27.0
+offset_top = 489.0
+offset_right = 89.0
+offset_bottom = 515.0
+text = "0 Jumps"

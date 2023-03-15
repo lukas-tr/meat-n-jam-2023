@@ -1,0 +1,38 @@
+[gd_scene load_steps=11 format=3 uid="uid://j31xgd1xxy5t"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_e8vwj"]
+[ext_resource type="PackedScene" uid="uid://bsdo1kw3fotdm" path="res://scenes/player.tscn" id="2_63nws"]
+[ext_resource type="PackedScene" path="res://scenes/platform.tscn" id="2_slu8i"]
+[ext_resource type="PackedScene" uid="uid://m4xq6l843p5d" path="res://scenes/money.tscn" id="3_23vrw"]
+[ext_resource type="PackedScene" uid="uid://bo8en66ubbkg6" path="res://scenes/hud.tscn" id="4_8q4x3"]
+[ext_resource type="Texture2D" uid="uid://8yq2be00rd60" path="res://sprites/cannon-base.svg" id="4_53uqo"]
+[ext_resource type="PackedScene" uid="uid://2jqpxas070eg" path="res://trampoline.tscn" id="4_o45ee"]
+[ext_resource type="PackedScene" path="res://scenes/cannon.tscn" id="5_1dgoh"]
+[ext_resource type="PackedScene" uid="uid://bagj46rt74e2b" path="res://spike.tscn" id="5_ywd6r"]
+[ext_resource type="PackedScene" uid="uid://bdhy4lnmrqak1" path="res://scenes/config.tscn" id="7_fjek3"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_e8vwj")
+platform_scene = ExtResource("2_slu8i")
+money_scene = ExtResource("3_23vrw")
+trampoline_scene = ExtResource("4_o45ee")
+spike_scene = ExtResource("5_ywd6r")
+
+[node name="HUD" parent="." instance=ExtResource("4_8q4x3")]
+
+[node name="CannonBase" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CannonBase"]
+position = Vector2(30, 2)
+scale = Vector2(0.211914, 0.211914)
+texture = ExtResource("4_53uqo")
+
+[node name="Cannon" parent="." instance=ExtResource("5_1dgoh")]
+position = Vector2(22, -4)
+
+[node name="Player" parent="." instance=ExtResource("2_63nws")]
+
+[node name="Config" parent="." instance=ExtResource("7_fjek3")]
+
+[connection signal="start_game" from="HUD" to="." method="_on_hud_start_game"]
+[connection signal="on_jump" from="Player" to="." method="_on_player_on_jump"]

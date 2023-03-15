@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93332 270.93334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="trampoline.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.63278728"
+     inkscape:cx="400.60856"
+     inkscape:cy="563.38048"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#003d9a;fill-opacity:1;stroke:#000000;stroke-width:10.5833332;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stroke-dasharray:none"
+       id="rect5160"
+       width="15.729293"
+       height="60.193581"
+       x="76.491188"
+       y="178.41165"
+       transform="rotate(13.606067)" />
+    <rect
+       style="fill:#003d9a;fill-opacity:1;stroke:#000000;stroke-width:10.58333317;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stroke-dasharray:none"
+       id="rect5160-3"
+       width="15.729293"
+       height="60.193581"
+       x="-190.7793"
+       y="241.72433"
+       transform="matrix(-0.9719361,0.23524503,0.23524503,0.9719361,0,0)" />
+    <rect
+       style="fill:#003d9a;fill-opacity:1;stroke:#000000;stroke-width:10.5833332;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stroke-dasharray:none"
+       id="rect5160-6"
+       width="15.729293"
+       height="60.193581"
+       x="92.123344"
+       y="166.2834"
+       transform="rotate(5.0943741)" />
+    <rect
+       style="fill:#003d9a;fill-opacity:1;stroke:#000000;stroke-width:10.58333324;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stroke-dasharray:none"
+       id="rect5160-3-7"
+       width="15.729293"
+       height="60.193581"
+       x="-175.42047"
+       y="185.45967"
+       transform="matrix(-0.99786261,0.0653468,0.0653468,0.99786261,0,0)" />
+    <ellipse
+       style="fill:#2a7eff;stroke:#000000;stroke-width:10.5833332;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1;stroke-dasharray:none"
+       id="path340"
+       cx="135.40141"
+       cy="188.23883"
+       rx="118.98817"
+       ry="30.171661" />
+    <ellipse
+       style="fill:#292929;fill-opacity:1;stroke:#000000;stroke-width:10.5833332;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stroke-dasharray:none"
+       id="ellipse5231"
+       cx="134.94913"
+       cy="188.89204"
+       rx="89.044617"
+       ry="13.390788" />
+  </g>
+</svg>
